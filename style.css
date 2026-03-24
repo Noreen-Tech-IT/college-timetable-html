@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(to right,rgb(226, 92, 92), rgb(71, 71, 221),rgb(160, 41, 160));
+    height:400px;
+    margin-top: 100px;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+#heading{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#table{
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    height:300px;
+    width: 80%;
+}
+
+th{
+    
+    background-color: rgb(35, 250, 178);
+    padding: 15px;
+    margin-left: 10px;
+}
+td{
+    padding: 20px;
+    background-color:rgb(248, 126, 167);
+    padding: 5px;
+    color: black;
+    text-decoration: bold;
+}
+#table tr:hover {
+    background-color: #25769e; 
+}
+.row{
+    color:black;
+    text-align: center;
+    
+    
+}
+.data{
+   
+   text-align: center; 
+}
+#table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+#block{
+    
+    display: flex-box;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
